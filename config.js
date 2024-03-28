@@ -4,8 +4,9 @@ module.exports = {
     timeZone: 'Asia/Kolkata', // Timezone for cron job
     users: [
         //    username   api-key        server url
-        ['Spark', 'spark1234', 'http://localhost:3001/'],
-        ['John', '1234John', 'https://john.meme/']
+        ['zeeshan@bhai.finance', 'Zee@007', 'http://localhost:3001/'],
+        ['zeeshan@bhai.finance', 'Zee@007', 'https://bhai.it:3001/'],
+        ['zeeshan@bhai.finance', 'Zee@007', 'https://bhai.it/']
     ], // All users that are going to use delta
     uploadpath: `${__dirname}/uploads`, // give full path
     cron: {

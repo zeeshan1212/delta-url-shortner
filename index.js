@@ -48,7 +48,7 @@ if (isProduction) {
 app.use('/', uploads);
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.send('OK');
 });
 
 app.listen(port, () =>

@@ -4,3 +4,4 @@ storage/
 yarn.lock
 package-lock.json
 public/css/
+.env
