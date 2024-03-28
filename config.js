@@ -20,7 +20,7 @@ module.exports = {
         host: process.env.REDIS_HOST, // Redis host
         password: '' // Redis password, keep blank for default
     },
-    port: 3001,
+    port: process.env.PORT || 3001,
     urlLength: 5, // generate URLs of this length, try to keep above 3 to avoid clashing. 5 works best for me
     urlString:
         '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz-', // URL will have these characters
